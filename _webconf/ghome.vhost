@@ -1,0 +1,17 @@
+server {
+    listen 80;
+
+    client_max_body_size 10M;
+    client_body_buffer_size 128k;
+
+    server_name ghome.dev;
+    root /var/www/jekyll/web;
+
+
+    location / {
+        proxy_pass http://jekyll:4000;
+    }
+
+    error_log /dev/stdout;
+    access_log /dev/stdout;
+}

@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Big Inception!"
+date:   2016-05-18 21:42:51 +0000
+categories: google-home
+---
+
+When the Google Home Voice assistant is first introduced.  A Gauntlet has been thrown down for the leader of this space - Alexa.
+
+"Alexa, what do you say?"
